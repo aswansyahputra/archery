@@ -1,13 +1,14 @@
 "use client";
 export function SkeletonShell() {
   return (
-    <div className="mx-auto min-h-screen max-w-md p-4">
-      <div className="h-8 w-48 animate-pulse rounded bg-muted" />
-      <div className="mt-4 h-32 animate-pulse rounded bg-muted" />
-      <div className="mt-4 grid grid-cols-2 gap-2">
-        <div className="h-12 animate-pulse rounded bg-muted" />
-        <div className="h-12 animate-pulse rounded bg-muted" />
+    <div style={{ maxWidth: 448, margin: "0 auto", minHeight: "100vh", padding: 16, fontFamily: "system-ui, sans-serif" }}>
+      <div style={{ height: 32, width: 192, borderRadius: 8, background: "#e5e7eb", animation: "pulse 2s infinite" }} />
+      <div style={{ marginTop: 16, height: 128, borderRadius: 8, background: "#e5e7eb", animation: "pulse 2s infinite" }} />
+      <div style={{ marginTop: 16, display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
+        <div style={{ height: 48, borderRadius: 8, background: "#e5e7eb", animation: "pulse 2s infinite" }} />
+        <div style={{ height: 48, borderRadius: 8, background: "#e5e7eb", animation: "pulse 2s infinite" }} />
       </div>
+      <p style={{ marginTop: 24, fontSize: 12, color: "#6b7280" }}>Memuat aplikasi…</p>
     </div>
   );
 }
