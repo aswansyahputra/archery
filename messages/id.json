@@ -1,0 +1,114 @@
+{
+  "common": {
+    "appName": "Horsebow Scoring",
+    "loading": "Memuat…",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Ubah",
+    "back": "Kembali",
+    "close": "Tutup",
+    "yes": "Ya",
+    "no": "Tidak",
+    "ok": "OK",
+    "undo": "Urungkan",
+    "confirm": "Konfirmasi",
+    "online": "Daring",
+    "offline": "Luring",
+    "syncing": "Menyinkronkan…",
+    "syncError": "Gagal sinkron",
+    "pendingSync": "Antrean: {{count}}",
+    "language": "Bahasa",
+    "theme": "Tema",
+    "light": "Terang",
+    "dark": "Gelap"
+  },
+  "nav": { "home": "Beranda", "newSession": "Sesi Baru", "history": "Riwayat", "gear": "Peralatan", "settings": "Pengaturan", "ai": "Analisis AI" },
+  "auth": {
+    "signIn": "Masuk dengan Google",
+    "signOut": "Keluar",
+    "signedInAs": "Masuk sebagai {{name}}",
+    "needInternet": "Masuk memerlukan koneksi internet",
+    "notConfigured": "Supabase belum dikonfigurasi. Tambahkan NEXT_PUBLIC_SUPABASE_URL dan NEXT_PUBLIC_SUPABASE_ANON_KEY."
+  },
+  "home": {
+    "title": "Selamat datang",
+    "subtitle": "Aplikasi pencatat skor panahan tradisional / horsebow",
+    "startSession": "Mulai Sesi Baru",
+    "noSessions": "Belum ada sesi. Mulai sesi pertama Anda.",
+    "recentSessions": "Sesi Terbaru"
+  },
+  "targets": {
+    "label": "Papan Sasaran",
+    "defaultDistance": "Jarak Default",
+    "fespatiLapangan": {
+      "label": "FESPATI Lapangan (6 ring)",
+      "ring6plus": "6+ (inner)",
+      "ring6": "6", "ring5": "5", "ring4": "4", "ring3": "3", "ring2": "2", "ring1": "1"
+    },
+    "wa10": {
+      "label": "WA 10-Zone",
+      "ringX": "X (10 inner)", "ring10": "10", "ring9": "9", "ring8": "8", "ring7": "7", "ring6": "6", "ring5": "5", "ring4": "4", "ring3": "3", "ring2": "2", "ring1": "1"
+    },
+    "wa5": { "label": "WA 5-Zone (Metric)", "ring5": "5", "ring4": "4", "ring3": "3", "ring2": "2", "ring1": "1" },
+    "nfaa": { "label": "NFAA / IFAA", "ringX": "X (5 inner)", "ring5": "5", "ring4": "4", "ring3": "3", "ring2": "2", "ring1": "1", "ring0": "Meleset" },
+    "korean": { "label": "Korea Tradisional", "ringX": "X (10 inner)", "ring10": "10", "ring9": "9", "ring7": "7", "ring5": "5", "ring3": "3" },
+    "turkish": { "label": "Turki / Ottoman", "ring9": "9", "ring7": "7", "ring5": "5", "ring3": "3", "ring1": "1" },
+    "asiatic": { "label": "Cincin Asiatik", "ring5": "5", "ring3": "3", "ring1": "1" }
+  },
+  "setup": {
+    "title": "Mulai Sesi Baru",
+    "date": "Tanggal & Waktu",
+    "distance": "Jarak (m)",
+    "target": "Papan Sasaran",
+    "lane": "Lajur / Nomor Rombongan",
+    "ends": "Jumlah End",
+    "arrowsPerEnd": "Anak Panah per End",
+    "reuseGear": "Pakai Profil Peralatan",
+    "copyLastSession": "Salin dari Sesi Terakhir",
+    "noLastSession": "Belum ada sesi sebelumnya",
+    "noGearProfiles": "Belum ada profil peralatan. Buat dulu di menu Peralatan.",
+    "notes": "Catatan Lingkungan",
+    "start": "Mulai Skor",
+    "invalidEnds": "End minimal 1",
+    "invalidArrows": "Minimal 1 anak panah per end"
+  },
+  "scoring": {
+    "end": "End", "arrow": "Anak panah", "of": "dari",
+    "miss": "Meleset", "runningTotal": "Total Berjalan", "endTotal": "Total End",
+    "avgPerArrow": "Rata-rata / Panah", "hits": "Hit", "highRing": "Ring Tinggi",
+    "xCount": "X", "missCount": "Meleset", "arrowsShot": "Panah Tertembak",
+    "undoLast": "Urungkan Panah Terakhir", "nextEnd": "End Berikutnya",
+    "complete": "Selesaikan Sesi", "completed": "Sesi Selesai",
+    "maxPossible": "Maks {{n}}", "view": "Lihat Detail"
+  },
+  "gear": {
+    "title": "Profil Peralatan", "add": "Tambah Profil", "edit": "Ubah Profil",
+    "name": "Nama Profil", "bowType": "Jenis Busur", "bowName": "Nama Busur",
+    "drawWeight": "Tarik (lbs @ draw length)", "drawLength": "Panjang Tarik (in)",
+    "arrow": "Anak Panah", "arrowSpine": "Spine", "arrowWeight": "Berat Panah (gr)",
+    "arrowPoint": "Berat Point (gr)", "arrowMaterial": "Material",
+    "materialWood": "Kayu", "materialCarbon": "Carbon", "materialBamboo": "Bambu",
+    "technique": "Teknik", "techniqueThumb": "Thumb Draw",
+    "techniqueMediterranean": "Mediterranean", "techniqueSlavic": "Slavic",
+    "environmentNotes": "Catatan Lingkungan",
+    "noProfiles": "Belum ada profil. Buat profil pertama Anda.",
+    "deleteConfirm": "Hapus profil ini?", "save": "Simpan Profil"
+  },
+  "ai": {
+    "title": "Analisis AI", "setupTitle": "Konfigurasi OpenRouter",
+    "setupIntro": "Gunakan model AI gratis dari OpenRouter untuk analisis sesi Anda. Kunci API disimpan hanya di perangkat ini.",
+    "step1Title": "Buka OpenRouter", "step1Body": "Kunjungi openrouter.ai lalu masuk dengan Google.",
+    "step2Title": "Buat Kunci API", "step2Body": "Buka menu Keys → Create Key, beri nama (mis. \"Archery PWA\"), lalu salin kunci yang dimulai dengan sk-or-…",
+    "step3Title": "Tempel & Simpan", "step3Body": "Tempel kunci di sini. Kunci hanya disimpan lokal di browser ini.",
+    "keyLabel": "Kunci API OpenRouter", "keyPlaceholder": "sk-or-…", "modelLabel": "Model",
+    "saveKey": "Simpan Kunci", "clearKey": "Hapus Kunci",
+    "needKey": "Atur kunci API dulu", "analyze": "Minta Analisis AI",
+    "analyzing": "Menganalisis…", "error": "Gagal: {{msg}}",
+    "coachReport": "Laporan Pelatih",
+    "disclaimer": "AI dapat membuat kesalahan. Gunakan sebagai panduan, bukan pengganti evaluasi manusia.",
+    "noSession": "Selesaikan sesi terlebih dahulu"
+  },
+  "history": { "title": "Riwayat Sesi", "empty": "Belum ada sesi", "completed": "Selesai", "active": "Aktif", "deleteConfirm": "Hapus sesi ini?" },
+  "settings": { "title": "Pengaturan", "appearance": "Tampilan", "data": "Data", "syncNow": "Sinkron Sekarang", "export": "Ekspor (segera)", "about": "Tentang" }
+}

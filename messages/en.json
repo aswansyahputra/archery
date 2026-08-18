@@ -1,0 +1,80 @@
+{
+  "common": {
+    "appName": "Horsebow Scoring",
+    "loading": "Loading…",
+    "save": "Save", "cancel": "Cancel", "delete": "Delete", "edit": "Edit", "back": "Back", "close": "Close",
+    "yes": "Yes", "no": "No", "ok": "OK", "undo": "Undo", "confirm": "Confirm",
+    "online": "Online", "offline": "Offline", "syncing": "Syncing…", "syncError": "Sync failed",
+    "pendingSync": "Pending: {{count}}",
+    "language": "Language", "theme": "Theme", "light": "Light", "dark": "Dark"
+  },
+  "nav": { "home": "Home", "newSession": "New Session", "history": "History", "gear": "Gear", "settings": "Settings", "ai": "AI Analysis" },
+  "auth": {
+    "signIn": "Sign in with Google",
+    "signOut": "Sign out",
+    "signedInAs": "Signed in as {{name}}",
+    "needInternet": "Sign-in requires an internet connection",
+    "notConfigured": "Supabase not configured. Add NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY."
+  },
+  "home": {
+    "title": "Welcome", "subtitle": "Traditional archery / horsebow scoring app",
+    "startSession": "Start a new session", "noSessions": "No sessions yet. Start your first session.",
+    "recentSessions": "Recent sessions"
+  },
+  "targets": {
+    "label": "Target face", "defaultDistance": "Default distance",
+    "fespatiLapangan": { "label": "FESPATI Field (6-ring)", "ring6plus": "6+ (inner)", "ring6": "6", "ring5": "5", "ring4": "4", "ring3": "3", "ring2": "2", "ring1": "1" },
+    "wa10": { "label": "WA 10-Zone", "ringX": "X (10 inner)", "ring10": "10", "ring9": "9", "ring8": "8", "ring7": "7", "ring6": "6", "ring5": "5", "ring4": "4", "ring3": "3", "ring2": "2", "ring1": "1" },
+    "wa5": { "label": "WA 5-Zone (Metric)", "ring5": "5", "ring4": "4", "ring3": "3", "ring2": "2", "ring1": "1" },
+    "nfaa": { "label": "NFAA / IFAA", "ringX": "X (5 inner)", "ring5": "5", "ring4": "4", "ring3": "3", "ring2": "2", "ring1": "1", "ring0": "Miss" },
+    "korean": { "label": "Korean Traditional", "ringX": "X (10 inner)", "ring10": "10", "ring9": "9", "ring7": "7", "ring5": "5", "ring3": "3" },
+    "turkish": { "label": "Turkish / Ottoman", "ring9": "9", "ring7": "7", "ring5": "5", "ring3": "3", "ring1": "1" },
+    "asiatic": { "label": "Asiatic Ring", "ring5": "5", "ring3": "3", "ring1": "1" }
+  },
+  "setup": {
+    "title": "Start a new session", "date": "Date & Time", "distance": "Distance (m)",
+    "target": "Target face", "lane": "Lane / Range position",
+    "ends": "Ends", "arrowsPerEnd": "Arrows per end",
+    "reuseGear": "Reuse gear profile", "copyLastSession": "Copy from last session",
+    "noLastSession": "No previous session",
+    "noGearProfiles": "No gear profiles yet. Create one in the Gear menu.",
+    "notes": "Environment notes", "start": "Start scoring",
+    "invalidEnds": "At least 1 end", "invalidArrows": "At least 1 arrow per end"
+  },
+  "scoring": {
+    "end": "End", "arrow": "Arrow", "of": "of", "miss": "Miss",
+    "runningTotal": "Running total", "endTotal": "End total", "avgPerArrow": "Avg / arrow",
+    "hits": "Hits", "highRing": "High ring", "xCount": "X", "missCount": "Miss",
+    "arrowsShot": "Arrows shot", "undoLast": "Undo last arrow", "nextEnd": "Next end",
+    "complete": "Complete session", "completed": "Session complete",
+    "maxPossible": "Max {{n}}", "view": "View details"
+  },
+  "gear": {
+    "title": "Gear profiles", "add": "Add profile", "edit": "Edit profile", "name": "Profile name",
+    "bowType": "Bow type", "bowName": "Bow name",
+    "drawWeight": "Draw weight (lbs @ draw length)", "drawLength": "Draw length (in)",
+    "arrow": "Arrow", "arrowSpine": "Spine", "arrowWeight": "Arrow weight (gr)",
+    "arrowPoint": "Point weight (gr)", "arrowMaterial": "Material",
+    "materialWood": "Wood", "materialCarbon": "Carbon", "materialBamboo": "Bamboo",
+    "technique": "Technique", "techniqueThumb": "Thumb draw",
+    "techniqueMediterranean": "Mediterranean", "techniqueSlavic": "Slavic",
+    "environmentNotes": "Environment notes",
+    "noProfiles": "No profiles yet. Create your first one.",
+    "deleteConfirm": "Delete this profile?", "save": "Save profile"
+  },
+  "ai": {
+    "title": "AI analysis", "setupTitle": "OpenRouter setup",
+    "setupIntro": "Use free AI models from OpenRouter to analyse your sessions. Your API key is stored only on this device.",
+    "step1Title": "Open OpenRouter", "step1Body": "Visit openrouter.ai and sign in with Google.",
+    "step2Title": "Create an API key", "step2Body": "Go to Keys → Create Key, name it (e.g. \"Archery PWA\"), then copy the key that starts with sk-or-…",
+    "step3Title": "Paste & save", "step3Body": "Paste the key here. It is stored locally in this browser only.",
+    "keyLabel": "OpenRouter API key", "keyPlaceholder": "sk-or-…", "modelLabel": "Model",
+    "saveKey": "Save key", "clearKey": "Clear key",
+    "needKey": "Set an API key first", "analyze": "Request AI analysis",
+    "analyzing": "Analysing…", "error": "Failed: {{msg}}", "coachReport": "Coach report",
+    "disclaimer": "AI can make mistakes. Use as guidance, not a substitute for human evaluation.",
+    "noSession": "Complete a session first"
+  },
+  "history": { "title": "Session history", "empty": "No sessions yet", "completed": "Completed", "active": "Active", "deleteConfirm": "Delete this session?" },
+  "settings": { "title": "Settings", "appearance": "Appearance", "data": "Data", "syncNow": "Sync now", "export": "Export (soon)", "about": "About" }
+}
